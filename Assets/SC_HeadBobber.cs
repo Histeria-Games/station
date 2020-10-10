@@ -86,4 +86,5 @@ public class SC_HeadBobber : MonoBehaviour
             GUI.DrawTexture (new Rect (0, 0, Screen.width, Screen.height), blurcamera1);
         }
     }
+
 }
