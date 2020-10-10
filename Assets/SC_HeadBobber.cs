@@ -67,7 +67,7 @@ public class SC_HeadBobber : MonoBehaviour
         transform.localPosition = new Vector3(transform.localPosition.x, defaultPosY + Mathf.Sin(timer) * walkingbobbingAmount, transform.localPosition.z);
     }
     void idle () {
-        timer = 0;
+        timer = 0; 
         transform.localPosition = new Vector3(transform.localPosition.x, Mathf.Lerp(transform.localPosition.y, defaultPosY, Time.deltaTime * walkingBobbingSpeed), transform.localPosition.z);
     }
 
