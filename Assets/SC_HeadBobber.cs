@@ -59,7 +59,7 @@ public class SC_HeadBobber : MonoBehaviour
     }
 
     void bob () {
-        timer += Time.deltaTime * bobbingSpeed;
+        timer += Time.deltaTime * bobbingSpeed; 
         transform.localPosition = new Vector3(transform.localPosition.x, defaultPosY + Mathf.Sin(timer) * bobbingAmount, transform.localPosition.z);
     }
     void bobWalking () {
